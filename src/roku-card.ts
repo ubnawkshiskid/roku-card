@@ -33,7 +33,7 @@ export class RokuCard extends LitElement {
   @internalProperty() private _config?: RokuCardConfig;
 
   public getCardSize(): number {
-    return 7;
+    return 9;
   }
 
   public setConfig(config: RokuCardConfig): void {
